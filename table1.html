@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Page</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: url('https://images.unsplash.com/photo-1516627145497-ae6968895b74?auto=format&fit=crop&w=1600&q=80') no-repeat center center/cover;
+            position: relative;
+        }
+
+        body::before {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background: rgba(0, 0, 0, 0.25);
+        }
+
+        .login-box {
+            position: relative;
+            z-index: 1;
+            background: rgba(255, 255, 255, 0.9);
+            padding: 25px 20px;
+            border-radius: 14px;
+            width: 340px;
+            text-align: center;
+            box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
+        }
+
+        h2 {
+            margin: 0 0 15px;
+            color: #2d2d2d;
+            font-size: 2rem;
+            text-align: center;
+        }
+
+        input {
+            width: 100%;
+            padding: 12px 10px;
+            margin: 10px 0;
+            border: 1px solid #d5d5d5;
+            border-radius: 8px;
+            font-size: 14px;
+        }
+
+        button {
+            width: 100%;
+            padding: 12px;
+            background-color: rgba(128, 0, 0, 0.885);
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 15px;
+        }
+
+        button:hover {
+            background-color: darkgreen;
+        }
+
+        p {
+            margin-top: 12px;
+        }
+
+        a {
+            color: #8b1e1e;
+            text-decoration: none;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+
+<div class="login-box">
+    <h2>🧸 Happy Toy Shop</h2>
+
+    <form>
+        <input type="text" placeholder="Enter Name" required><br>
+        <input type="text" placeholder="Enter phone no" required><br>
+        <input type="text" placeholder="Enter Price amount" required><br>
+        <input type="text" placeholder="Enter Product Name" required><br>
+
+        
+        <p><a href="rough.html"> Login</a></p>
+    </form>
+</div>
+
+</body>
+</html>
